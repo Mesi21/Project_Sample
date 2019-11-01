@@ -78,6 +78,25 @@ p {
   }
 }
 
+nav{
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  li{
+    padding-left: 20px;
+    a{
+      color: $gray-medium-light;
+      &:hover {
+        color: $gray-light;
+      }
+    }    
+  }
+}
+
 /* footer */
 
 footer {
